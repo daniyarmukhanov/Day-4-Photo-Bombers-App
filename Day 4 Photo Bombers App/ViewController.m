@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "PhotosCollectionViewClassCollectionViewCell.h";
+#import "PhotosCollectionViewClassCollectionViewCell.h";//jkjk
 
 @interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
