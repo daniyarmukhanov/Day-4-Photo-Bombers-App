@@ -14,6 +14,8 @@
 		F6D3D9AB1B328C7000ED3D6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D3D9AA1B328C7000ED3D6E /* Images.xcassets */; };
 		F6D3D9AE1B328C7000ED3D6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6D3D9AC1B328C7000ED3D6E /* LaunchScreen.xib */; };
 		F6D3D9BA1B328C7000ED3D6E /* Day_4_Photo_Bombers_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D3D9B91B328C7000ED3D6E /* Day_4_Photo_Bombers_AppTests.m */; };
+		F6D3D9C51B32906D00ED3D6E /* PhotosCollectionViewClassCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D3D9C41B32906D00ED3D6E /* PhotosCollectionViewClassCollectionViewCell.m */; };
+		F6D3D9C71B32939000ED3D6E /* barca.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6D3D9C61B32939000ED3D6E /* barca.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		F6D3D9B31B328C7000ED3D6E /* Day 4 Photo Bombers AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 4 Photo Bombers AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D3D9B81B328C7000ED3D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6D3D9B91B328C7000ED3D6E /* Day_4_Photo_Bombers_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_4_Photo_Bombers_AppTests.m; sourceTree = "<group>"; };
+		F6D3D9C31B32906D00ED3D6E /* PhotosCollectionViewClassCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosCollectionViewClassCollectionViewCell.h; sourceTree = "<group>"; };
+		F6D3D9C41B32906D00ED3D6E /* PhotosCollectionViewClassCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionViewClassCollectionViewCell.m; sourceTree = "<group>"; };
+		F6D3D9C61B32939000ED3D6E /* barca.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = barca.jpeg; path = ../../../Downloads/barca.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				F6D3D9A21B328C7000ED3D6E /* AppDelegate.m */,
 				F6D3D9A41B328C7000ED3D6E /* ViewController.h */,
 				F6D3D9A51B328C7000ED3D6E /* ViewController.m */,
+				F6D3D9C31B32906D00ED3D6E /* PhotosCollectionViewClassCollectionViewCell.h */,
+				F6D3D9C41B32906D00ED3D6E /* PhotosCollectionViewClassCollectionViewCell.m */,
 				F6D3D9A71B328C7000ED3D6E /* Main.storyboard */,
 				F6D3D9AA1B328C7000ED3D6E /* Images.xcassets */,
 				F6D3D9AC1B328C7000ED3D6E /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		F6D3D99D1B328C7000ED3D6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6D3D9C61B32939000ED3D6E /* barca.jpeg */,
 				F6D3D99E1B328C7000ED3D6E /* Info.plist */,
 				F6D3D99F1B328C7000ED3D6E /* main.m */,
 			);
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D3D9C71B32939000ED3D6E /* barca.jpeg in Resources */,
 				F6D3D9A91B328C7000ED3D6E /* Main.storyboard in Resources */,
 				F6D3D9AE1B328C7000ED3D6E /* LaunchScreen.xib in Resources */,
 				F6D3D9AB1B328C7000ED3D6E /* Images.xcassets in Resources */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6D3D9A61B328C7000ED3D6E /* ViewController.m in Sources */,
+				F6D3D9C51B32906D00ED3D6E /* PhotosCollectionViewClassCollectionViewCell.m in Sources */,
 				F6D3D9A31B328C7000ED3D6E /* AppDelegate.m in Sources */,
 				F6D3D9A01B328C7000ED3D6E /* main.m in Sources */,
 			);
