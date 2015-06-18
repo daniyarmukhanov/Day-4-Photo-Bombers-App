@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "PhotosCollectionViewClassCollectionViewCell.h";//jkjk
+#import "PhotosCollectionViewClassCollectionViewCell.h" //jkjk
+#import <SimpleAuth/SimpleAuth.h>
 
 @interface ViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -21,6 +22,10 @@
     self.collectionView.dataSource=self;
     self.collectionView.delegate=self;
     [self.collectionView registerClass:[PhotosCollectionViewClassCollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
+    
+    [SimpleAuth authorize:@"instagram" completion:^(id responseObject, NSError *error) {
+        NSLog(@"%@", responseObject);
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
